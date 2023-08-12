@@ -2,7 +2,7 @@ package stack
 
 import "fmt"
 
-type Stack[T int | float64 | string] struct {
+type Stack[T any] struct {
 	arr []T
 }
 
